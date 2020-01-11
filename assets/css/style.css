@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#button-container{
+    background-color: #464E54;
+    color: #fff;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+#movie-buttons {
+    margin-bottom: 16px;
+}
+
+.movie {
+    background-color: red;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 4px 12px;
+}
+
+.card {
+    display: inline-block;
+    margin: 0 24px 24px 0;
+}
+
+.card img {
+    border: 16px solid #fff;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
