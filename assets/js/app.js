@@ -18,7 +18,7 @@ function renderButtons() {
 function renderImages() {
     $('#movies').empty();
     var currentMovie = $(this).attr("data-name");
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + currentMovie + "&api_key=uZR0wAh2EOGMGLWYIv1LW87ZumFFgiYI&limit=10");
+    var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + currentMovie + "&api_key=uZR0wAh2EOGMGLWYIv1LW87ZumFFgiYI&limit=10");
     xhr.done(function(data) { 
         console.log("success got data", data);
         for (let i = 0; i < data.data.length; i++) {
